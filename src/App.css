@@ -1,0 +1,120 @@
+
+
+/* Header */
+.Header {
+    background-color: blue;
+    margin: auto;
+    padding: 0px 30px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.Headerpin{
+    display: flex;
+    justify-content: space-between;
+}
+.Headerpin .mainbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+.Headerpin .mainbar a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white
+}
+
+
+/* slider */
+.Slider{
+    background-color: blue;
+    margin: auto;
+    padding: 0px 30px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 250px;
+}
+
+
+.Slider .Right{
+    background-color: gray;
+    margin-bottom: 15px;
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+/* Box */
+.Box{
+    margin: auto;
+    padding: 0px 30px;
+    max-width: 1200px;
+}
+
+.Box .Box__feature{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Box .Box__feature h4{
+    background-color: bisque;
+    width: 32%;
+    flex-grow: 3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 18px;
+    color: brown;
+}
+
+.Box .Box__feedback{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: brown;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+/* Footer */
+.Footer{
+    background-color: blue;
+    margin: auto;
+    padding: 0px 30px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 80px;
+    align-items: center;
+}
+
+.Footer .Footer__Left{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+    
+}
+
+.Footer .Footer__Left a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
